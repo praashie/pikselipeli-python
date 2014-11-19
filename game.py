@@ -37,7 +37,7 @@ class GameObject:
 class Bullet(GameObject):
 	parent = None;
 
-	bouncy = True;
+	bouncy = False;
 	xOld = 0.0;
 	yOld = 0.0;
 
